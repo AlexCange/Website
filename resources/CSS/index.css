@@ -1,0 +1,166 @@
+
+html, body { 
+        scroll-behavior: smooth
+}
+
+body{
+    text-align: center;
+    font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0b0804a9;
+    margin:0px;
+}
+
+a{
+    color:#000000;
+    font-weight: 700;
+
+}
+
+.banner{
+    background-image: url("/resources/images/Banner1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: (rgba(28, 19, 2, 0.757));
+    text-align: center;
+    padding-top: 0px;
+}
+
+.banner h1{
+    color: #0b0804a9;
+    font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:600;
+    font-size: 115px;
+    
+}
+
+.banner h2{
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    background: #0b0804a9;
+    height:50px;
+    width:400px;
+    margin: auto;
+    padding:auto;
+    text-align: center;
+    color:#9f9876a8;
+    border-radius: 10px;
+}
+
+h2{
+    color:#9f9876a8;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Menu a{
+    text-align: center;
+    background: #0b0804a9;
+    border-radius: 100px;
+    color:#9f9876a8;
+    margin: 30px;
+    padding: 20px 30px 25px 30px;
+    font-size: 25px;
+    display:inline-block;
+    scroll-behavior: smooth;
+
+}
+.Menu a:hover {
+    background: #000000d4;
+
+}
+.Cat h2{
+    text-align: center;
+    color:#0b0804a9;
+    font-size:50px;
+    font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.About-Me{
+    display:flex;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 450px;
+}
+.About-Me img{
+    height:230px;
+    width:200px;
+}
+.About-Me p{
+    border: 1px solid #0b0804a9;
+    border-radius: 10px;
+    height:230px;
+    width:400px;
+    margin-top: 0;
+    text-align: right;
+
+}
+
+.Work_Experience{
+    display:flex;
+    margin: 10px auto;
+    padding: 50px;
+    max-width: 450px;
+}
+
+.Work_Experience img{
+    height:230px;
+    width:200px;
+}
+.Work_Experience p{
+    border: 1px solid #0b0804a9;
+    border-radius: 10px;
+    height:230px;
+    width:400px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.Portfolio{
+    display:inline-block;
+    margin: 20px auto;
+    padding: 20px;
+    align-items: center;
+    width:auto;
+}
+
+
+
+.Portfolio p{
+    border: 1px solid #0b0804a9;
+    border-radius: 10px;
+    height:230px;
+    width:400px;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.Contact_Me p{
+    display:block;
+    background-color:#0b0804a9;
+    background-position: center;
+    background-size: cover;
+    color:#9f9876a8;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin: 0 40px;;
+}
+
+.Contact_Me a{
+    color:#5b5744a8;
+    font-weight: bold;
+}
+
+footer{
+    margin: 0px;
+}
+
+@media only screen (max-width:480px) {
+    .About-Me img{
+        display:none;
+    }
+    .Work_Experience img{
+        display:none;
+    }
+}
