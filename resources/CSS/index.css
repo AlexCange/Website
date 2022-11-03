@@ -5,15 +5,13 @@ html, body {
 
 body{
 text-align: center;
-font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: #000000c3;
-margin:0px;
 }
 
 a{
 color:#000000;
 font-weight: 700;
-
 }
 
 .banner{
@@ -38,38 +36,9 @@ background: #0b0804a9;
 height:auto;
 }
 
-@media only screen and (max-width:445px){
-.banner h1{
-    font-size: 53px; 
-}
-.Portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    margin: 0px;
-    padding: 0px;
-}
-.Portfolio p{
-    width:300px;
-    padding: 0px;
-    margin: 0px;
-
-}
-}
-
-
-/* .banner h2{
-border: 1px solid rgba(0, 0, 0, 0.65);
-background: #0b0804a9;
-height:50px;
-text-align: center;
-color:#9f9876a8;
-border-radius: 10px;
-} */
-
 h2{
 color:#9f9876a8;
-font-size: 30px;
+font-size: 40px;
 text-align: center;
 }
 
@@ -87,38 +56,50 @@ scroll-behavior: smooth;
 }
 .Menu a:hover {
 background: #000000d4;
+}
+
+.Cat {
+    margin:10px;
+    padding:10px;
 
 }
+
 .Cat h2{
 text-align: center;
 color:#0b0804a9;
-font-size:50px;
+font-size:60px;
 font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-decoration: underline;
 }
 
 .About-Me{
-display:flex;
+display:inline-flex;
 margin: 10px auto;
 padding: 20px;
-max-width: 450px;
-}
-.About-Me img{
-height:230px;
-width:200px;
-}
-.About-Me p{
-border: 1px solid #0b0804a9;
-border-radius: 10px;
-height:230px;
-width:400px;
-margin-top: 0;
-text-align: right;
+max-width: 900px;
 }
 
-.Skills{
-    display:grid;
+.About-Me p{
+    margin: 0px 30px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
     
+.Skills{
+}
+
+.Skills h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.Skills p{
+    display: inline-block;
+    margin: 0px 30px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
 
@@ -180,6 +161,26 @@ font-weight: bold;
 footer{
 margin: 0px;
 }
+
+@media only screen and (max-width:445px){
+    .banner h1{
+        font-size: 53px; 
+    }
+    .Portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .Portfolio p{
+        width:300px;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+}
+
 
 /* @media only screen and (max-width:480px) {
 .About-Me img{
