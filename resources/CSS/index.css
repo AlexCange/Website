@@ -21,8 +21,9 @@ background-repeat: no-repeat;
 background-size:cover;
 background-color: (rgba(28, 19, 2, 0.757));
 text-align: center;
-padding-top: 0px;
-height:300px;
+height:300px; 
+padding: 0px;
+margin:0px;
 }
 
 .banner h1{
@@ -44,10 +45,10 @@ text-align: center;
 
 .Menu a{
 text-align: center;
-background: #0b0804a9;
+background: #14110ea9;
 border-radius: 0px;
-color:#bac6ada8;
-margin: 30px;
+color:#000000a8;
+margin: 10px;
 padding: 20px 30px 25px 30px;
 font-size: 25px;
 display:inline-block;
@@ -56,6 +57,7 @@ scroll-behavior: smooth;
 }
 .Menu a:hover {
 background: #000000d4;
+color:#a79e9664
 }
 
 .Cat {
@@ -78,31 +80,39 @@ margin: 10px auto;
 padding: 20px;
 max-width: 900px;
 }
-
+.About-Me p::first-letter{
+    font-weight: 800;
+    font-size: 30px;
+}
 .About-Me p{
-    margin: 0px 30px;
-    padding: 10px 20px;
+    margin: 0px 10px;
+    padding: 10px 10px;
     text-align: justify;
     font-size: 25px;
 }
 
     
-.Skills{
+.Skills div {
+    /* border-top:2px double rgba(35, 34, 32, 0.757); */
+    
+    border-radius: 0px;
+    color:#000000a8;
+    margin: 10px;
+    padding: 10px 40px 25px 40px;
+    display:inline-block;
 }
-
+.Skills hr {
+    border-color: #1b19196d;
+}
 .Skills h3{
-    font-size: 40px;
-    text-decoration: underline;
+    font-size: 35px;
+    color:#000000;
 }
 .Skills p{
-    display: inline-block;
-    margin: 0px 30px;
-    padding: 10px 20px;
     text-align: center;
     font-size: 25px;
+    margin: 10px 10px;
 }
-
-
 
 
 .Work_Experience{
@@ -111,6 +121,20 @@ margin: 10px auto;
 padding: 50px;
 max-width: 450px;
 }
+.CV a{
+    text-align: center;
+    background: #14110ea9;
+    color:#000000a8;
+    padding: 20px 30px 25px 30px;
+    font-size: 25px;
+    display:inline-block;
+}
+
+.CV a:hover {
+    background: #000000d4;
+    color:#a79e9664
+    }
+
 
 .Work_Experience img{
 height:230px;
@@ -166,6 +190,8 @@ margin: 0px;
     .banner h1{
         font-size: 53px; 
     }
+    .Skills div {
+    }
     .Portfolio{
         display: flex;
         flex-wrap: wrap;
@@ -177,7 +203,6 @@ margin: 0px;
         width:300px;
         padding: 0px;
         margin: 0px;
-    
     }
 }
 
