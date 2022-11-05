@@ -6,7 +6,7 @@ html, body {
 body{
 text-align: center;
 font-family: Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #000000c3;
+background-color: #282626c3;
 }
 
 a{
@@ -38,9 +38,12 @@ height:auto;
 }
 
 h2{
-color:#9f9876a8;
-font-size: 40px;
+color:#98958666;
+font-size: 100px;
 text-align: center;
+font-weight: 900;
+font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline;
 }
 
 .Menu a{
@@ -63,16 +66,8 @@ color:#a79e9664
 .Cat {
     margin:10px;
     padding:10px;
-
 }
 
-.Cat h2{
-text-align: center;
-color:#0b0804a9;
-font-size:60px;
-font-family:Oswald,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-decoration: underline;
-}
 
 .About-Me{
 display:inline-flex;
@@ -115,17 +110,17 @@ max-width: 900px;
 }
 
 
-.Work_Experience{
-display:flex;
-margin: 10px auto;
-padding: 50px;
-max-width: 450px;
+.Work_Experience {
+    display:inline-block;
+    max-width: 650px;
 }
+
 .CV a{
     text-align: center;
     background: #14110ea9;
     color:#000000a8;
     padding: 20px 30px 25px 30px;
+    margin-bottom: 80px;
     font-size: 25px;
     display:inline-block;
 }
@@ -135,18 +130,43 @@ max-width: 450px;
     color:#a79e9664
     }
 
-
-.Work_Experience img{
-height:230px;
-width:200px;
+.Work_Experience h4{
+    font-size: 25px;
+    margin-bottom: 0px;
+    text-decoration: underline;
 }
-.Work_Experience p{
-border: 1px solid #0b0804a9;
-border-radius: 10px;
-height:230px;
-width:400px;
-margin-top: 0;
-text-align: right;
+
+.Work_Experience h5{
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+
+.Work_Experience div{
+    border: 1px solid #0b0804a9;
+    padding: 0px 30px 25px 30px;
+    display: flex;
+    height: auto;
+}
+
+.resume {
+    width:300px;
+    padding:0px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.resume p {
+    font-size: 15px;
+    margin: 0px;
+    font-style: italic;
+}
+
+.Text p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .Portfolio{
