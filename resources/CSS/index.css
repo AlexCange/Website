@@ -197,7 +197,6 @@ max-width: 700px;
 .Portfolio p{
     border: 1px solid #0b0804a9;
     padding: 0px 30px 25px 30px;
-    display: flex;
     height: auto;
     margin-bottom:10px;
     align-items: center;
@@ -235,8 +234,14 @@ width:100%;
     .banner h1{
         font-size: 53px; 
     }
+    .Cat {
+        margin:0px;
+    }
+    .Skills {
+        display:block;
+    }
     .Work_Experience {
-        max-width: 280px;
+        display:block;
     }
     .VIU {
         padding: 0px 13px 20px 13px;
@@ -247,17 +252,11 @@ width:100%;
     .resume {
         width:50px;
     }
-    .Portfolio{
-        display: flex;
-        flex-wrap: wrap;
-        width: 300px;
-        margin: 0px;
-        padding: 0px;
+    .Education {
+        display: block;
     }
-    .Portfolio p{
-        width:300px;
-        padding: 0px;
-        margin: 0px;
+    .Portfolio{
+        display: block;
     }
 }
 
