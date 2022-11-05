@@ -210,11 +210,7 @@ max-width: 700px;
 }
 
 .Contact_Me p{
-    background-color:#dad8d789;
-    background-size: cover;
-    color:#1e1d18a8;
     font-size: 25px;
-    padding-bottom: 30px;
     margin:0px;
 }
 
@@ -222,7 +218,12 @@ max-width: 700px;
 color:#5b5744a8;
 font-weight: bold;
 }
-
+.Contact_Me img {
+    border-radius: 50%;
+    color: #3d3b2fa8;
+    height: 40px;
+    margin: 10px;
+}
 footer{
 margin: 0px;
 width:100%;
