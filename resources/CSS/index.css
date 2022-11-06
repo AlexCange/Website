@@ -91,6 +91,7 @@ max-width: 700px;
     font-size: 20px;
 }
 
+
 .ToTop {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -111,6 +112,8 @@ max-width: 700px;
 .ToTop:hover {
     background-color: #98958666 ;
     color: #282626e2;
+    height:50px;
+    width:50px;
 }
 
 .Skills {
@@ -126,7 +129,9 @@ max-width: 700px;
     padding: 10px 40px 25px 40px;
     display:inline-block;
 }
-
+.Skills div:hover {
+    margin: 0px;
+}
 .Skills h3{
     font-size: 30px;
     color:#000000;
@@ -140,8 +145,8 @@ max-width: 700px;
 
 .Work_Experience {
     display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .CV a{
@@ -156,7 +161,8 @@ max-width: 700px;
 
 .CV a:hover {
     background: #000000d4;
-    color:#a79e9664
+    color:#a79e9664;
+    font-size: 30px;
     }
 
 .Work_Experience h4{
@@ -181,7 +187,7 @@ max-width: 700px;
 }
 
 .resume {
-    width:300px;
+    width:30%;
     text-align: left;
     margin-top: 0px;
 }
