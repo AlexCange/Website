@@ -91,6 +91,28 @@ max-width: 700px;
     font-size: 20px;
 }
 
+.ToTop {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    background-color: #282626e2; /* Set a background color */
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
+    color: #98958666;
+    border-radius: 50%; /* Rounded corners */
+    height:40px;
+    width:40px;
+}
+.ToTop img {
+    width: 90%;
+    height: 90%;
+}
+
+.ToTop:hover {
+    background-color: #98958666 ;
+    color: #282626e2;
+}
+
 .Skills {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -118,7 +140,7 @@ max-width: 700px;
 
 .Work_Experience {
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 30px;
 }
 
@@ -194,7 +216,7 @@ max-width: 700px;
 }
 .Portfolio{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .Portfolio p{
@@ -261,14 +283,27 @@ width:100%;
     .VIU {
         padding: 0px 13px 20px 13px;
     }
+    .Work_Experience h4{
+        font-size: 15px;
+        margin-top:30px;
+    }
+    .Work_Experience h5{
+        font-size: 13px;
+    }
     .KIABI {
         padding: 0px 13px 20px 13px;
     }
     .resume {
         width:50px;
     }
+    .Text {
+        font-size: 16px;
+    }
     .Education {
         display: block;
+    }
+    .Education div {
+        margin: 20px;
     }
     .Portfolio{
         display: block;
