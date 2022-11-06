@@ -204,10 +204,7 @@ max-width: 700px;
     margin:10px;
     align-items: center;
 }
-.Portfolio h6 {
-    font-size: 30px;
-    text-decoration: underline;
-}
+
 .Portfolio a {
     font-size: 20px;
     color:#98958666;
