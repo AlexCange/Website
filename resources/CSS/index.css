@@ -48,6 +48,7 @@ text-align: center;
 font-weight: 900;
 font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-decoration: underline;
+margin: 70px auto 50px auto;
 }
 
 .Menu a{
@@ -177,12 +178,14 @@ max-width: 700px;
 .Education {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;;
+    column-gap: 30px;
+    row-gap: 10px;
 
 }
 
 .Education div {
     border: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .Education h4 {
@@ -190,19 +193,26 @@ max-width: 700px;
     text-decoration:underline;
 }
 .Portfolio{
-    display:inline-block;
-    max-width: 650px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .Portfolio p{
-    border: 1px solid #0b0804a9;
-    padding: 0px 30px 25px 30px;
-    height: auto;
-    margin-bottom:10px;
+    background-color: #282626e2;
+    color:#98958666;
+    padding: 30px 30px 25px 30px;
+    margin:10px;
     align-items: center;
-    width:300px;
 }
 
+.Portfolio a {
+    font-size: 30px;
+    color:#98958666;
+}
+.Portfolio p:hover {
+    background-color: #98958666 ;
+    color: #282626e2;
+}
 .Contact_Me {
     width:100%;
     margin:0px;
@@ -223,6 +233,9 @@ font-weight: bold;
     color: #3d3b2fa8;
     height: 40px;
     margin: 10px;
+}
+.Contact_Me img:hover {
+    background-color: #282626e2;
 }
 footer{
 margin: 0px;
@@ -261,27 +274,3 @@ width:100%;
     }
 }
 
-
-/* @media only screen and (max-width:480px) {
-.About-Me img{
-    display:none;
-}
-.Work_Experience img{
-    display:none;
-}
-}
-
-@media only screen and (max-width:1020px){
-.banner h1{
-    position:absolute;
-    top: 0%;
-    left:15%;
-    transform: translate(-0%, -20%);
-}
-.banner h2{
-    position:absolute;
-    top: 60%;
-    left: 49%;
-    transform: translate(-60%, -49%);
-}
-}
