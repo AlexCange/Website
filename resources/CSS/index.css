@@ -19,7 +19,7 @@ scroll-behavior: smooth;
 }
 
 .banner{
-background-image: url(/resources/images/Banner3.jpeg);
+background-image: url(./resources/images/Banner3.jpeg);
 background-repeat: no-repeat;
 background-size:cover;
 opacity: 100%;
@@ -69,34 +69,34 @@ color:#000000e0;
 }
 
 .LinkAbout {
-    background-image: url(/resources/images/about.jpeg);
+    background-image: url(./resources/images/about.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Linkcontact {
-    background-image: url(/resources/images/contact.jpg);
+    background-image: url(./resources/images/contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .LinkSkills {
-    background-image: url(/resources/images/Skills.jpeg);
+    background-image: url(./resources/images/Skills.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .LinkExp {
-    background-image: url(/resources/images/VIUcopy.jpeg);
+    background-image: url(./resources/images/VIUcopy.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .LinkEdu {
-    background-image: url(/resources/images/Certificates.jpeg);
+    background-image: url(./resources/images/Certificates.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .LinkPortfolio {
-    background-image: url(/resources/images/Data_Engineering.jpeg);
+    background-image: url(./resources/images/Data_Engineering.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -225,12 +225,12 @@ max-width: 700px;
     z-index: 100;
 }
 .VIU {
-    background-image: url(/resources/images/VIU.jpeg);
+    background-image: url(./resources/images/VIU.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .KIABI {
-    background-image: url(/resources/images/Kiabi.jpeg);
+    background-image: url(./resources/images/Kiabi.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -260,19 +260,19 @@ max-width: 700px;
 
 }
 .School {
-    background-image: url(/resources/images/WBS.jpeg);
+    background-image: url(./resources/images/WBS.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .Uni {
-    background-image: url(/resources/images/Uni.jpeg);
+    background-image: url(./resources/images/Uni.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .Certificates {
-    background-image: url(/resources/images/Certificates.jpeg);
+    background-image: url(./resources/images/Certificates.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -293,23 +293,23 @@ max-width: 700px;
     height:auto;
 }
 .Engineer p{
-    background-image: url(/resources/images/Data_Engineering.jpeg);
+    background-image: url(./resources/images/Data_Engineering.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .SQL p{
-    background-image: url(/resources/images/SQL.jpeg);
+    background-image: url(./resources/images/SQL.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .DatasCleaning p{
-    background-image: url(/resources/images/Data_Sciences.jpeg);
+    background-image: url(./resources/images/Data_Sciences.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .FinalProject p {
-        background-image: url(/resources/images/Spotify.jpeg);
+        background-image: url(./resources/images/Spotify.jpeg);
         background-repeat: no-repeat;
         background-size: cover; 
     }
