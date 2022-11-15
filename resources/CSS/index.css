@@ -46,7 +46,6 @@ font-size: 50px;
 text-align: center;
 font-weight: 900;
 font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-decoration: underline;
 margin: 70px auto 50px auto;
 }
 
@@ -60,6 +59,7 @@ padding: 20px 30px 25px 30px;
 font-size: 25px;
 display:inline-block;
 scroll-behavior: smooth;
+text-decoration:none;
 }
 
 .Menu a:hover {
@@ -155,6 +155,9 @@ max-width: 700px;
     /* background-image: url(/resources/images/Skills.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
+    background-image: url('../../resources/img/Skills.JPEG');
+    background-repeat: no-repeat;
+    background-size: cover; 
     background-color: #1e1c1ce6;
     border:1px solid #808080;
     border-radius: 13px;
