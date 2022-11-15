@@ -148,7 +148,7 @@ max-width: 700px;
 
 .Skills {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .Skills div {
@@ -160,8 +160,7 @@ max-width: 700px;
     background-size: cover; 
     background-color: #1e1c1ce6;
     border:1px solid #808080;
-    border-radius: 13px;
-    color:#c9c9c9;
+    color:#ffffff;
     margin: 10px;
     padding: 10px 40px 25px 40px;
     display:inline-block;
@@ -171,13 +170,13 @@ max-width: 700px;
 }
 .Skills h3{
     font-size: 30px;
-    color:#f0f0f0;
+    color:#ffffff;
 }
 .Skills p{
     text-align: center;
     font-size: 20px;
     margin: 10px 10px;
-    color:#f1ecec;
+    color:#ffffff;
 }
 
 
@@ -195,6 +194,7 @@ max-width: 700px;
     margin: 40px 10px;
     font-size: 25px;
     display:inline-block;
+    text-decoration:none;
 }
 
 .CV a:hover {
@@ -215,12 +215,11 @@ max-width: 700px;
 
 
 .Work_Experience div{
-    border: 1px solid #0b0804a9;
     padding: 0px 30px 25px 30px;
     display: flex;
     height: auto;
     margin-bottom:10px;
-    color:rgba(255, 255, 255, 0.776);
+    color:rgb(255, 255, 255);
 }
 .Work_Experience div:hover {
     margin: -30px;
@@ -280,11 +279,13 @@ max-width: 700px;
 }
 
 .Education div {
-    border: 1px solid rgba(0, 0, 0, 0.669);
     padding-bottom: 20px;
-    border-radius: 15px;;
+    color: white;
 }
-
+.Education a {
+    text-decoration:none;
+    color: white;
+}
 .Education h4 {
     font-size: 20px;
     text-decoration:underline;
@@ -318,7 +319,7 @@ max-width: 700px;
 
 .Portfolio p{
     background-color: #282626e2;
-    color:#ffffffcf;
+    color: white;
     padding: 30px 30px 25px 30px;
     margin:10px;
     align-items: center;
