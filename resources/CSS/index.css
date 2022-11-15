@@ -13,7 +13,6 @@ margin:0px;
 
 a{
 color:#000000;
-font-weight: 700;
 scroll-behavior: smooth;
 
 }
@@ -59,7 +58,6 @@ padding: 20px 30px 25px 30px;
 font-size: 25px;
 display:inline-block;
 scroll-behavior: smooth;
-text-decoration:none;
 }
 
 .Menu a:hover {
@@ -105,10 +103,11 @@ color:#000000e0;
 }
 
 .About-Me{
-display:inline-flex;
-margin: 10px auto;
-padding: 20px;
-max-width: 700px;
+    background-image:url('../../resources/img/About.JPEG');
+    display:inline-flex;
+    margin: 10px auto;
+    padding: 20px;
+    color:white;
 }
 .About-Me p::first-letter{
     font-weight: 800;
@@ -120,7 +119,11 @@ max-width: 700px;
     text-align: justify;
     font-size: 20px;
 }
-
+.About-Me a {
+    font-weight:bold;
+    text-decoration: none;
+    color: white;
+}
 
 .ToTop {
     position: fixed; /* Fixed/sticky position */
@@ -205,7 +208,6 @@ max-width: 700px;
 .Work_Experience h4{
     font-size: 25px;
     margin-bottom: 0px;
-    text-decoration: underline;
 }
 
 .Work_Experience h5{
@@ -288,7 +290,6 @@ max-width: 700px;
 }
 .Education h4 {
     font-size: 20px;
-    text-decoration:underline;
 }
 .Portfolio{
     display:grid;
