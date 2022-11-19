@@ -15,8 +15,8 @@
         <div class="banner" id="banner">
             <br>
             <br>
-            <h1>WELCOME!</h1>
-            <br>
+            <h1>WELCOME! <br></h1>
+            <br> 
             <br>
         </div>
         <hr>
@@ -25,7 +25,8 @@
             <br>
             <br>
                 <a href="#About-Me" class="LinkAbout">ABOUT ME</a>
-                <a href="#Skills" class="LinkSkills">SKILLS</a>
+                <a href="#Skills" class="LinkSkills">HARD SKILLS</a>
+                <a href="#SOFT" class="LinkSoft">SOFT SKILLS</a>
                 <a href="#Work_Experiences" class="LinkExp">WORK EXPERIENCES</a>
                 <a href="#Education" class="LinkEdu">EDUCATION</a>
                 <a href="#Portfolio" class="LinkPortfolio">PORTFOLIO</a> 
@@ -37,6 +38,7 @@
         <div class="Cat">
             <h2 id="About-Me">ABOUT ME</h2>
             <div class="About-Me">
+                <!-- <img src="./resources/img/About.JPEG" alt="Aboutme"> -->
                 <p> Hello everyone! 
                     <br>
                     I am Alex, and I come from France!
@@ -67,8 +69,21 @@
                 </p>
             </div>
             <a href='#banner' class="ToTop" title="Go to top"><img src="./resources/img/Top.PNG" alt=""></a>
+            <div class="BigMother"> Menu
+            <div class="NavBar" >
+            <ul class="nav" id="nav">
 
-            <h2 id="Skills" class="Cat-Title">SKILLS</h2>
+                    <li><a href="#About-Me" class="">ABOUT ME</a></li>
+                    <li><a href="#Skills" class="">HARD SKILLS</a></li>
+                    <li><a href="#SOFT" class="">SOFT SKILLS</a></li>
+                    <li><a href="#Work_Experiences" class="">WORK EXPERIENCES</a></li>
+                    <li><a href="#Education" class="">EDUCATION</a></li>
+                    <li><a href="#Portfolio" class="">PORTFOLIO</a> </li>
+                    <li><a href="#Contact" class="">CONTACT</a></li>  
+            </ul>
+        </div>
+    </div>
+            <h2 id="Skills" class="Cat-Title">HARD SKILLS</h2>
             <div class="Skills">
                 
                 <div  class="Datas">
@@ -78,10 +93,10 @@
                     <p>Tableau</p>
                 </div>
                 <div class="ProgrammingLanguages">
-                <h3>Programming Languages</h3>
-                    <p>Matplotlib/Seaborn</p>
+                <h3>Programming <br> Languages</h3>
                     <p>Python</p>
                     <p>SQL</p>
+                    <p>HTML/CSS</p>
                 </div>
                 <div class="Engineering">
                 <h3>Data Engineering</h3>
@@ -94,17 +109,32 @@
                         <p>AWS Lambda</p>
                         <p></p>
                     </div>
+                <div class="UnsupervisedML">
+                    <h3>Unsupervised Machine Learning</h3>
+                        <p>Clustering with KMean</p>
+                        <p>Silhouette Score</p>
+                        <p>Inertia Score</p>
+                    </div>
+                <div class="UnsupervisedML">
+                    <h3>Supervised Machine Learning</h3>
+                        <p></p>
+                        <p> </p>
+                        <p> </p>
+                    </div>
+            </div>
+            <h2 id="SOFT" class="Cat-Title">SOFT SKILLS</h2>
+            <div class="Soft">
                 <div class="Language">
                     <h3>Languages</h3>
                         <p>French Native</p>
                         <p>English C1</p>
                         <p>German B2</p>
                     </div>
-                <div class="Soft Skills">
+                <div class="Personal">
                     <h3>Personal Skills</h3>
                         <p>Fast Learning</p>
                         <p>Adaptability</p>
-                        <p>Problem-Solving</p>
+                        <p>Problem Solving</p>
                     </div>
             </div>
             <h2 id="Work_Experiences">WORK <br> EXPERIENCES</h2>
@@ -181,8 +211,11 @@
                     <br>2013 - 2016</p>
                 </div>
                 <div class="Certificates">
-                    <h4>Check also my Certificates!</h4>
+                    <h4>LinkedIn Certificates</h4>
                     <a href="./resources/docs/CertificateOfCompletion_Statistics Foundations 2.pdf" target="_blank">Statistics (LinkedIN)</a><br>
+                </div>
+                <div class="Certificates">
+                    <h4>Codecademy Certificates</h4>
                     <a href="./resources/docs/Data Analysis with Pandas.pdf" target="_blank">Data Analytics with Pandas (Codecademy)</a><br>
                     <a href="./resources/docs/Data Cleaning.pdf" target="_blank">Data Cleaning (Codecademy)</a><br>
                 </div>
@@ -190,16 +223,28 @@
             <h2 id="Portfolio">PORTFOLIO</h2>
             <div class="Portfolio">
                 <div class="Engineer">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Engineering/" target="_blank"><p>Data Engineering<br>Cloud Computing<br></p></a>
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Engineering/" target="_blank">
+                        <h4>Data Engineering<br>Cloud Computing<br></h4></a>
                 </div>
                 <div class="SQL">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/BASIC_SQL_ENIAC" target="_blank"><p>SQL<br><br></p></a>
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/BASIC_SQL_ENIAC" target="_blank">
+                        <h4>Basic SQL</h4></a>
                 </div>  
                 <div class="DatasCleaning">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/2_Data_Cleaning_ENIAC" target="_blank"><p>Data Cleaning and Vizualisation<br><br></p></a>
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/2_Data_Cleaning_ENIAC" target="_blank">
+                        <h4>Data Cleaning <br> Data Vizualisation</h4><p></p></a>
                 </div>
                 <div class="FinalProject">
-                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank"><p>Final Project at WBS<br>Spotify</p></a>
+                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
+                        <h4>Final Project at WBS</h4><p>How Music groups impact artists fame?</p></a>
+                </div>
+                <div class="UMachineLearning">
+                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
+                        <h4>Unsupervised Machine Learning</h4><p>Is KMean a good algorithm for creating playlists?</p></a>
+                </div>
+                <div class="SMachineLearning">
+                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
+                        <h4>Supervised Machine Learning</h4><p></p></a>
                 </div>
             </div>
         
