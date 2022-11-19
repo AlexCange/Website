@@ -112,25 +112,13 @@ font-size: 25px;;
 
 
 .About-Me{
-    /* display:grid;
-    grid-template-columns: repeat(2, 1fr); */
-    margin: 10px auto;
-    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
     color:rgb(0, 0, 0);
-    max-width: 700px;
 }
 
-.About-Me img {
-    max-width:400px;
-    align-items: center;
-
-}
-.About-Me p::first-letter{
-    font-weight: 800;
-    font-size: 30px;
-}
 .About-Me p{
-
     text-align: justify;
     font-size: 20px;
 }
@@ -169,13 +157,16 @@ font-size: 25px;;
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     left: 30px; /* Place the button 30px from the right */
-    background-color: #282626; /* Set a background color */
+    background-color: #282626e2; /* Set a background color */
+    background-image: url('../../resources/img/Nav.JPEG');
     /* background-position:50% 50%; */
-    color: #ffffffb3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
     height:40px;
-    width:80px;
+    width:70px;
     text-align: center;
-    font-size: 25px;
 }
 
 .NavBar {
@@ -187,39 +178,34 @@ font-size: 25px;;
 .nav {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #282626e2;
     min-width: 200px;
     z-index: 1;
     font-size: 15px;
-    border-radius: 10px;
-    border: 1px solid black;
 }
 
 .BigMother:hover .nav{
     display:block;
-    background-color: #9f9f9f ;
-    color:#000000;
+    background-color: #282626e2 ;
+    color: white;
     bottom: 0px;
-    left: 0px;
+    left: -35px;
     list-style: none;
     text-align: left;
     font-weight: bold;
 }
-.BigMother:active .nav{
-    display:block;
-    background-color: #9f9f9f ;
-    color:#000000;
-    bottom: 0px;
-    left: 0px;
-    list-style: none;
-    text-align: left;
-    font-weight: bold;
-}
+
 .nav li {
-    padding:5px;
+    padding:7px;
+    
 }
 .nav a {
     text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.nav li:hover {
+    background-color: #5c5c5c;
 }
 
 .Skills {
@@ -456,11 +442,29 @@ width:100%;
 
 @media only screen and (max-width:445px){
 
+    .banner {
+        height: 150px;
+    }
     .banner h1{
-        font-size: 53px; 
+        font-size: 45px; 
+    }
+    .Menu a{
+        color:#ffffff;
+        margin: 5px 50px;
+        padding: 10px;
+        font-size: 15px;
+        display:block;
+        background-image: none;
+        background-color: #282626e2;
+        }
+    .About-Me{
+        grid-template-columns: repeat(1, 1fr);
     }
     .Cat {
         margin:0px;
+    }
+    .BigMother {
+        display:none;
     }
     .Skills {
         grid-template-columns: repeat(2, 1fr);
@@ -487,11 +491,8 @@ width:100%;
     .Text {
         font-size: 16px;
     }
-    .Education {
-    }
     .Education div {
-    }
-    .Portfolio{
+        margin: 10px;
     }
 }
 
