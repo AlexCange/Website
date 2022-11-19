@@ -457,8 +457,21 @@ width:100%;
         background-image: none;
         background-color: #282626e2;
         }
+    .Menu a:hover {
+        color:#ffffff;
+        margin: 5px 50px;
+        padding: 10px;
+        font-size: 15px;
+        display:block;
+        background-image: none;
+        background-color: #282626e2;
+    }
     .About-Me{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .About-Me div:first-child {
+        grid-row: 2;
+
     }
     .Cat {
         margin:0px;
@@ -468,6 +481,13 @@ width:100%;
     }
     .Skills {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .Skills h3{
+        font-size: 20px ;
+    }
+    .Skills p{
+        font-size: 15px;
+
     }
     .Work_Experience {
         display:block;
