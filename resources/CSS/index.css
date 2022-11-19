@@ -130,8 +130,7 @@ font-size: 25px;;
     font-size: 30px;
 }
 .About-Me p{
-    /* margin: 0px 10px;
-    padding: 10px 10px; */
+
     text-align: justify;
     font-size: 20px;
 }
@@ -254,7 +253,7 @@ font-size: 25px;;
 .Soft {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url('../../resources/img/Skills.jpeg');
+    background-image: url('../../resources/img/Skills.JPEG');
     background-repeat: no-repeat;
     background-size: cover; 
 }
