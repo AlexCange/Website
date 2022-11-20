@@ -114,8 +114,10 @@ font-size: 25px;;
 .About-Me{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
+    column-gap: 100px;
     color:rgb(0, 0, 0);
+    margin: auto 50px;
+
 }
 
 .About-Me p{
