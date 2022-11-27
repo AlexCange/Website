@@ -424,23 +424,17 @@ font-size: 25px;;
     margin:0px;
 }
 
-.Contact_Me a{
-color:#5b5744a8;
-font-weight: bold;
-}
 .Contact_Me img {
     border-radius: 50%;
     color: #3d3b2fa8;
     height: 40px;
     margin: 10px;
 }
+
 .Contact_Me img:hover {
     background-color: #282626e2;
 }
-footer{
-margin: 0px;
-width:100%;
-}
+
 
 @media only screen and (max-width:445px){
 
