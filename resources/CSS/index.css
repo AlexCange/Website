@@ -19,21 +19,22 @@ text-decoration: none;
 }
 
 .banner{
-background-image: url('../../resources/img/Banner.JPEG');
+background-image: url('../../resources/img/Banner2.JPEG');
 background-repeat: no-repeat;
+background-color: #171717;
 background-size:cover;
 text-align: center;
-height:300px; 
+height:500px; 
 padding: 0px;
 margin:0px;
 width:100%;
 }
 
 .banner h1{
-color: #000000;
-font-family:Oswald,s'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, sans-serif;
+color: #79848b;
+font-family: "Anek Devanagari","Arial Narrow", Helvetica, sans-serif;
 font-weight:900;
-font-size: 90px;
+font-size: 100px;
 text-align: left;
 padding-left:30px;
 margin: 0%;
@@ -52,23 +53,26 @@ margin: 70px auto 50px auto;
 
 .Menu a{
 text-align: center;
-border-radius: 3px;
 color:#ffffff;
 margin: 10px;
 padding: 10px 20px 15px 20px;
 font-size: 20px;
 display:inline-block;
 scroll-behavior: smooth;
-
+border-left: 3px solid rgb(255, 255, 255);
 }
 
 .Menu a:hover {
 opacity:0.9;
-color:#000000e0;
-font-size: 25px;;
+margin: 8px;
+
+/* color:#000000e0; */
+/* font-size: 25px; */
+border-left: 5px solid rgb(255, 255, 255);
+
 }
 
-.LinkAbout {
+/* .LinkAbout {
     background-image: url('../../resources/img/About.JPEG');
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +108,7 @@ font-size: 25px;;
     background-image: url('../../resources/img/Engineering.JPEG');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .Cat {
     margin:10px;
     padding:10px;
@@ -114,28 +118,27 @@ font-size: 25px;;
 .About-Me{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 100px;
-    color:rgb(0, 0, 0);
-    margin: auto 50px;
-
+    column-gap: 50px;
+    margin: auto 5%;
 }
 
 .About-Me p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
+    color:white;
 }
 .About-Me a {
     font-weight:bold;
     text-decoration: none;
-    color: black;
-    text-decoration:underline;
+    color: rgba(255, 255, 255, 0.813);
+    text-decoration:none;
 }
 
 .ToTop {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
-    background-color: #282626e2; /* Set a background color */
+    background-color: #282626; /* Set a background color */
     background-position:50% 50%;
     background-repeat:no-repeat;    
     color: #98958666;
@@ -149,26 +152,26 @@ font-size: 25px;;
 }
 
 .ToTop:hover {
-    background-color: #98958666 ;
+    background-color: #4a4129 ;
     color: #282626e2;
-    height:50px;
-    width:50px;
+
 }
 
 .BigMother {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     left: 30px; /* Place the button 30px from the right */
-    background-color: #282626e2; /* Set a background color */
+    background-color: #282626; /* Set a background color */
     background-image: url('../../resources/img/Nav.JPEG');
     /* background-position:50% 50%; */
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:15%;
     color: white;
     height:40px;
-    width:70px;
+    width:150px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .NavBar {
@@ -180,25 +183,28 @@ font-size: 25px;;
 .nav {
     display: none;
     position: absolute;
-    background-color: #282626e2;
-    min-width: 200px;
-    z-index: 1;
+    background-color: #282626;
+    min-width: 150px;
+    z-index: 2;
     font-size: 15px;
 }
 
 .BigMother:hover .nav{
     display:block;
-    background-color: #282626e2 ;
+    background-color: #282626 ;
     color: white;
-    bottom: 0px;
-    left: -35px;
+    bottom: -1px;
+    left: -75px;
+    /* right:-50px;
+    top:10px; */
     list-style: none;
     text-align: left;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .nav li {
-    padding:7px;
+    padding:5px;
     
 }
 .nav a {
@@ -225,16 +231,17 @@ font-size: 25px;;
     
 }
 .Skills div:hover {
-    border: 20px
+    border: 10px solid rgb(184, 182, 182);
+
 
 }
 .Skills h3{
-    font-size: 30px;
+    font-size: 23px;
     color:#ffffff;
 }
 .Skills p{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px 10px;
     color:#ffffff;
 }
@@ -252,18 +259,17 @@ font-size: 25px;;
     
 }
 .Soft div:hover {
-    border: 20px
-
+    border: 10px solid rgb(184, 182, 182);
 }
 .Soft h3{
-    font-size: 30px;
+    font-size:23px;
     color:#ffffff;
 }
 .Soft p{
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 10px;
-    padding-bottom: 10px;
+    /* text-align: center; */
+    font-size: 15px;
+    /* margin: 10px 10px; */
+    /* padding-bottom: 10px; */
     color:#ffffff;
 }
 
@@ -275,13 +281,14 @@ font-size: 25px;;
 
 .CV a{
     text-align: center;
-    background: #4f4f4fa9;    
-    color:#c9c9c9;
-    padding: 20px 30px 25px 30px;
+    background: #2f2e2ea9;    
+    color:#fffefec8;
+    padding: 15px 25px 15px 25px;
     margin: 40px 10px;
-    font-size: 25px;
+    font-size: 15px;
     display:inline-block;
     text-decoration:none;
+    border-radius: 50px;
 }
 
 .CV a:hover {
@@ -291,18 +298,18 @@ font-size: 25px;;
     }
 
 .Work_Experience h4{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 0px;
 }
 
 .Work_Experience h5{
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px;
 }
 
 
 .Work_Experience div{
-    padding: 0px 30px 25px 30px;
+    padding: 0px 20px 25px 30px;
     display: flex;
     height: auto;
     margin-bottom:10px;
@@ -326,7 +333,7 @@ font-size: 25px;;
 }
 
 .resume p {
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic;
 }
 
@@ -334,7 +341,7 @@ font-size: 25px;;
     text-align: justify;
     padding-left: 30px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .Education {
@@ -367,11 +374,13 @@ font-size: 25px;;
     margin: 20px;
 }
 .Education div:hover {
-    margin: 10px;
+    border: 10px solid rgb(184, 182, 182);
+    margin:10px;
 
 }
+
 .Education a {
-    text-decoration:none;
+    text-decoration: underline;
     color: white;
 }
 .Education h4 {
@@ -397,20 +406,21 @@ font-size: 25px;;
     border: 20px
     }
 
-.Portfolio a{
-    color: white;
-    padding: 10px ;
-    margin: 20px;
-    align-items: center;
-    font-size: 20px;
+.Portfolio p{
+    text-align: justify;
+    margin: 5%;
 }
 
 .Portfolio a {
-    text-decoration: none;
+    text-decoration: underline;
+    color:white;
 }
 .Portfolio h4 {
-    font-size: 25px;
+    font-size: 23px;
+    padding: 10px ;
+    margin: 20px;
     color: white;
+    align-items: center;
 }
 
 .Contact_Me {
@@ -420,27 +430,22 @@ font-size: 25px;;
 }
 
 .Contact_Me p{
-    font-size: 25px;
+    font-size: 20px;
     margin:0px;
 }
 
-.Contact_Me a{
-color:#5b5744a8;
-font-weight: bold;
-}
 .Contact_Me img {
     border-radius: 50%;
     color: #3d3b2fa8;
     height: 40px;
     margin: 10px;
+    
 }
+
 .Contact_Me img:hover {
     background-color: #282626e2;
 }
-footer{
-margin: 0px;
-width:100%;
-}
+
 
 @media only screen and (max-width:445px){
 

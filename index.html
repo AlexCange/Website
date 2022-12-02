@@ -7,15 +7,18 @@
         <title>Alex Cange</title>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Roboto:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2012/05/04/10/17/sun-47083_1280.png">
         <link rel="stylesheet" href="./resources/CSS/index.css">
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </head>
     <body>
         <!-- Banner Section -->
         <div class="banner" id="banner">
             <br>
             <br>
-            <h1>WELCOME! <br></h1>
+            <h1>Alexandra Cange<br></h1>
+            <p></p>
             <br> 
             <br>
         </div>
@@ -25,15 +28,16 @@
             <br>
             <br>
                 <a href="#About-Me" class="LinkAbout">ABOUT ME</a>
-                <a href="#Skills" class="LinkSkills">HARD SKILLS</a>
-                <a href="#SOFT" class="LinkSoft">SOFT SKILLS</a>
+                <a href="#Portfolio" class="LinkPortfolio">PORTFOLIO</a> 
+                <a href="#Skills" class="LinkSkills">SKILLS</a>
                 <a href="#Work_Experiences" class="LinkExp">WORK EXPERIENCES</a>
                 <a href="#Education" class="LinkEdu">EDUCATION</a>
-                <a href="#Portfolio" class="LinkPortfolio">PORTFOLIO</a> 
                 <a href="#Contact" class="Linkcontact">CONTACT</a>  
             <br>
             <br>
+            <br>
         </div>
+        <hr>
         <!-- Text Section-->
         <div class="Cat">
             <h2 id="About-Me">ABOUT ME</h2>
@@ -80,21 +84,73 @@
             <div class="NavBar" >
             <ul class="nav" id="nav">
 
-                    <li><a href="#About-Me" class="">ABOUT ME</a></li>
-                    <li><a href="#Skills" class="">HARD SKILLS</a></li>
-                    <li><a href="#SOFT" class="">SOFT SKILLS</a></li>
-                    <li><a href="#Work_Experiences" class="">WORK EXPERIENCES</a></li>
-                    <li><a href="#Education" class="">EDUCATION</a></li>
-                    <li><a href="#Portfolio" class="">PORTFOLIO</a> </li>
-                    <li><a href="#Contact" class="">CONTACT</a></li>  
+                    <a href="#About-Me" class=""><li>ABOUT ME</li></a>
+                    <a href="#Skills" class=""><li>HARD SKILLS</li></a>
+                    <a href="#SOFT" class=""><li>SOFT SKILLS</li></a>
+                    <a href="#Work_Experiences" class=""><li>WORK EXPERIENCES</li></a>
+                    <a href="#Education" class=""><li>EDUCATION</li></a>
+                    <a href="#Portfolio" class=""><li>PORTFOLIO</li></a> 
+                    <a href="#Contact" class=""><li>CONTACT</li>  </a>
             </ul>
         </div>
     </div>
+    <h2 id="Portfolio">PORTFOLIO</h2>
+            <div class="Portfolio">
+                <div class="FinalProject">
+                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
+                        <h4>Final Project at WBS</h4></a>
+                        <p>Does music artist need Main Distribution Label (UMG, Sony, Warner, Believe) to be succesful?<br>
+                            For this, I am working mainly with the Spotify API, but also other resources on the internet and would like 
+                            to find out how artists are performing with Majors Distribution Labels (the 3 leaders UMG, Sony and Warner) 
+                            and without them. <br>
+                            Once this will be settled down, I want to see if the current status represents the past and if we can expect
+                             the same status in the next 5, 10, 50 years.</p>
+                </div>
+                <div class="UMachineLearning">
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Unsupervised_ML" target="_blank">
+                        <h4>Unsupervised Machine Learning</h4></a>
+                        <p>Is KMean a good algorithm for creating playlists?<br>With the Spotify Audio Features, we try to cluster songs together 
+                        and see how KMean algorithm work on it. Is a computer able to create good playlists?</p>
+                </div>
+                <div class="SMachineLearning">
+                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
+                        <h4><br>Supervised Machine Learning<br></h4></a><a href="https://medium.com/@alexandracange/my-journey-with-supervised-machine-learning-59d643b84ce8" target="_Blank"><p>Click here and read my Post on Medium!</p></a>
+                        <p>Exploration of algorithms to predict if a house in expensive or not according to its caracteristics and then 
+                            trying to predict as close as possible the price of houses. <br>
+                            Participation at the <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard#" target="_blank">
+                                kaggle</a> competition.
+                        </p>
+                    </div>
+
+                <div class="Engineer">
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Engineering" target="_blank">
+                        <h4>Data Engineering<br>Cloud Computing<br></h4></a><a href="https://medium.com/@alexandracange/my-first-automated-data-pipeline-in-the-cloud-eafebc83a83b" target="_Blank"><p>Click here and read my Post on Medium!</p></a>
+                <p>Create an automated pipeline with AWS Lambda, CloudWatch and MySQL to store information about flights, Weather forecast and Cities main caracteristics.</p>
+                </div>
+                <div class="SQL">
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Basic_SQL" target="_blank">
+                        <h4><br> Basic SQL <br></h4></a>
+                        <p>Eniac, a Spanish E-Commerce Tech Company, would like to expand worlwide.
+                            Since the leadership do not want to wait the time for a intense market study, 
+                        they asked the data scientists team to analyse the data from Magist, a brazilian 
+                    E-commerce platform specilised in Brazil. What costs, shipping deals, kind of products this 
+                Magist company is selling and would it make sense to go with them for expansion to Brazil? </p>
+                </div>  
+                <div class="DatasCleaning">
+                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Cleaning" target="_blank">
+                        <h4>Data Cleaning <br> Data Vizualisation</h4><p></p></a>
+                        <p>Is it beneficial to discount products? <br> As a data Scientist in Eniac, an E-commerce company
+                        specialised in High-Tech products, We should advice the CEO on going or not for discounts as the Marketing
+                    Team suggested. After cleaning the messy datas, and check the quality of them, we should analyse the datas to make the 
+                best recommendations possible.</p>
+                </div>
+            </div>
+        
             <h2 id="Skills" class="Cat-Title">HARD SKILLS</h2>
             <div class="Skills">
                 
                 <div  class="Datas">
-                <h3> Data Sciences</h3>
+                <h3> Data Analytics</h3>
                     <p>Data Vizualisation</p>
                     <p>Data Cleaning</p>
                     <p>Tableau</p>
@@ -124,30 +180,31 @@
                     </div>
                 <div class="UnsupervisedML">
                     <h3>Supervised Machine Learning</h3>
-                        <p></p>
-                        <p> </p>
-                        <p> </p>
+                        <p>Classifier</p>
+                        <p>Regressor</p>
+                        <p>Tuning</p>
                     </div>
             </div>
             <h2 id="SOFT" class="Cat-Title">SOFT SKILLS</h2>
             <div class="Soft">
                 <div class="Language">
                     <h3>Languages</h3>
-                        <p>French Native</p>
-                        <p>English C1</p>
-                        <p>German B2</p>
+                        <p>French Native<br>
+                        English C1 <br>
+                        German B2</p>
                     </div>
                 <div class="Personal">
                     <h3>Personal Skills</h3>
-                        <p>Fast Learning</p>
-                        <p>Adaptability</p>
-                        <p>Problem Solving</p>
+                        <p>Fast Learning <br>
+                        Adaptability <br>
+                        Problem Solving</p>
+                        <p>And much more of course...</p>
                     </div>
             </div>
             <h2 id="Work_Experiences">WORK <br> EXPERIENCES</h2>
             <div class="CV">
-            <a href="./resources/A_CangeCV.pdf" download class="cv" target="_blank" >Download CV</a>
-            <a href="./resources/A_CangeCV.pdf" class="cv" target="_blank" >Directly view</a>
+            <a href="./resources/A_CangeCV.pdf" download class="cv" target="_blank" >DOWNLOAD MY CV</a>
+            <a href="./resources/A_CangeCV.pdf" class="cv" target="_blank" >VIEW MY CV</a>
             </div>
             <div class="Work_Experience">
                 <div class="VIU">
@@ -227,51 +284,26 @@
                     <a href="./resources/docs/Data Cleaning.pdf" target="_blank">Data Cleaning (Codecademy)</a><br>
                 </div>
             </div>
-            <h2 id="Portfolio">PORTFOLIO</h2>
-            <div class="Portfolio">
-                <div class="Engineer">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Engineering" target="_blank">
-                        <h4>Data Engineering<br>Cloud Computing<br></h4></a><a href="https://medium.com/@alexandracange/my-first-automated-data-pipeline-in-the-cloud-eafebc83a83b" target="_Blank"><p>Click here and read my Post on Medium!</p></a>
-                </div>
-                <div class="SQL">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Basic_SQL" target="_blank">
-                        <h4>Basic SQL</h4></a>
-                </div>  
-                <div class="DatasCleaning">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Cleaning" target="_blank">
-                        <h4>Data Cleaning <br> Data Vizualisation</h4><p></p></a>
-                </div>
-                <div class="FinalProject">
-                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
-                        <h4>Final Project at WBS</h4><p>How Music groups impact artists fame?</p></a>
-                </div>
-                <div class="UMachineLearning">
-                    <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Unsupervised_ML" target="_blank">
-                        <h4>Unsupervised Machine Learning</h4><p>Is KMean a good algorithm for creating playlists?</p></a>
-                </div>
-                <div class="SMachineLearning">
-                    <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
-                        <h4>Supervised Machine Learning</h4><p></p></a>
-                </div>
-            </div>
-        
+            
             <div class="Contact_Me">
                 <h2>CONTACT</h2>
-                <footer id="Contact">
+                <!-- <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="alexandracange" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/alexandracange?trk=profile-badge">Alexandra Cange</a></div> -->
+                
+                <div id="Contact">
                     <p>Phone: +49 174 7453284</p>
                     
                     <p>Email: alexandracange@gmail.com</p>
                      
-                    <p>Location: Berlin</p>
-                        <a href="https://github.com/AlexCange?tab=repositories" target="_blank">
+                    <p>Location: Berlin</p>    
+                    <a href="https://github.com/AlexCange?tab=repositories" target="_blank">
                     <img src="./resources/img/Github.PNG" alt="Github"></a>  
                     
                     <a href="https://www.linkedin.com/in/alexandracange/" target="_blank">
                         <img src="./resources/img/LinkedIn.PNG" alt="LinkedIn">
                     </a>
                     <a href="mailto:alexandracange@gmail.com"> <img src="./resources/img/Gmail.PNG" alt=""></a>
-                </footer>
-            </div>
+                </div>
+                        </div>
     </body>
 </html>
 
