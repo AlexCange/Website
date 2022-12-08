@@ -50,6 +50,21 @@ font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 margin: 70px auto 50px auto;
 }
 
+.OtherPage {
+    font-size: 20px;
+    text-align: center; 
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background-color: #17171744;
+    padding: 10px 5px;
+}
+.OtherPage a {
+    color:#353030
+}
+.OtherPage:hover {
+    border: 2px solid rgba(0, 0, 0, 0.251);
+
+}
 
 .Menu a{
 text-align: center;
