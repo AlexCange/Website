@@ -16,21 +16,42 @@
         <!-- Banner Section -->
         <div class="banner" id="banner"></div>
         <div class="bannerText">
-            <h1>Alexandra Cange<br></h1>
+            <div class="waviy">
+                <span style="--i:1">A</span>
+                <span style="--i:2">L</span>
+                <span style="--i:3">E</span>
+                <span style="--i:4">X</span>
+                <span style="--i:5">A</span>
+                <span style="--i:6">N</span>
+                <span style="--i:7">D</span>
+                <span style="--i:8">R</span>
+                <span style="--i:9">A</span>
+                <span style="--i:10"><br><br></span>
+                <span style="--i:11">C</span>
+                <span style="--i:12">A</span>
+                <span style="--i:13">N</span>
+                <span style="--i:14">G</span>
+                <span style="--i:15">E</span>
+            </div>
         </div>
 
         <!-- Navigation -->
         <div class="Menu" id="Menu">
             <ul>
+                <li><a href="#banner"><span class="material-symbols-outlined">
+                    home
+                    </span></a></li>
                 <li><a href="#About-Me" class="LinkAbout">ABOUT ME</a></li>
                 <li class="dropdown"><a href="#Portfolio" class="LinkPortfolio">PORTFOLIO</a>
                     <div class="dropdown-portfolio">
-                        <a href="">Project</a>
-                        <a href="">Project</a>
-                        <a href="">Project</a>
-                        <a href="">Project</a>
-                        <a href="">Project</a>
-                        <a href="">Project</a>
+                        <a href="#FinalProject">DEEP LEARNING: Predict Popularity on Spotify</a>
+                        <a href="#UMachineLearning">UNSUPERVISED MACHINE LEARNING: Create Playlists</a>
+                        <a href="#SMachineLearning">SUPERVISED MACHINE LEARNING: Predict House Price</a>
+                        <a href="#RecommenderSystem">RECOMMENDER SYSTEM: Movie Recommender System</a>
+                        <a href="#BI">BUSINESS INTELLIGENCE: Customer Analysis for E-Commerce</a>
+                        <a href="#DataQuality">DATA QUALITY: Are discount beneficial?</a>
+                        <a href="#Engineering">DATA ENGINEERING: Automate Pipeline in the cloud</a>
+                        <a href="#SQL">SQL: Analysis and Query for Lego</a>
                     </div></li>
                 <li><a href="#Skills" class="LinkSkills">SKILLS</a></li>
                 <li><a href="#Work_Experiences" class="LinkExp">WORK EXPERIENCES</a></li>
@@ -44,40 +65,29 @@
         <div class="Cat">
             <h2 id="About-Me">ABOUT ME</h2>
             <div class="About-Me">
-                <div class="TextonMe">
-                <p> Hello everyone! 
-                    I am Alex, and I come from France!
-                    
-                    I would define myself as an easy-going person. 
-                    I like my friends, my family, traveling, and learning. 
-                    I also draw and read in my freetime.
-                    I am always (or almost!) in a good mood! 
-                    My friends would describe me as someone reliable, caring and friendly. 
-                    <br>
-                    At the beginning of August 2022, I decided to take some time 
-                    to reflect on myself, where I was going, what I wanted to do 
-                    in my life, etc. 
-                    I started to get informed about tech and all jobs related to it. 
-                    I have read a lot, started to study basics in different subjects 
-                    (UI/UX, Data Analytics, Basics of Programming for example).
-                    And here I am a few months later! 
-                    <br>
-                    End of September 2022, 
-                    I started studying Data Science in a Bootcamp at <a href="https://www.wbscodingschool.com/" target="_blank">WBS School</a> and 
-                    taking some classes on <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>. 
-                    <br>
-                    <br>
-                    Just check my website to get to know more about me and do not 
-                    hesitate to contact me! 
+                <div>
+                <p> Hello there! <br><br>
+                    My name is Alex, and I'm from France. 
+                    I consider myself an easy-going individual who cherishes spending time with friends and family, 
+                    exploring new places, and expanding my knowledge. <br>
+                    I also enjoy engaging in creative pursuits, such as drawing and reading, during my leisure time. <br>
+                    Those closest to me would describe me as dependable, caring, and friendly. <br><br>
+                    In August 2022, I took a moment to reflect on my life, future goals, and aspirations. 
+                    During this time, I immersed myself in tech-related fields, exploring a range of topics such as UI/UX, 
+                    data analytics, and the basics of programming. 
+                    After much research, I decided to enroll in a Data Science Bootcamp at 
+                    <a href="https://www.wbscodingschool.com/" target="_blank">WBS School</a> and began 
+                    the journey in late September 2022.
                 </p>
             </div>
             <div>
-                <p>Why not to listen some of my favorites songs while scrolling on 
-                    my website ?
+                <p><br><br>Please feel free to check out my website to learn more about me, and don't hesitate to get in touch. <br><br>
+                    Also, why not listen to some of my favorite tunes while browsing my site? <br>
+                    Let's be real, though - you'll have to get to know me a bit better to discover my top picks! <br><br><br>
                 </p>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/30PWaW7m9YARhOqps4nUYj?utm_source=generator" width="100%" height="220" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>                <p>Let's be honest, you will have to get to know me 
-                    before to really know my favorite songs!
-                </p>
+            </div>
+            <div class="SpotifyPlayer">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/30PWaW7m9YARhOqps4nUYj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="1" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             </div>
             <a href='#banner' class="ToTop" title="Go to top"><span class="material-symbols-outlined">
@@ -86,30 +96,30 @@
             
     <h2 id="Portfolio">PORTFOLIO</h2>
             <div class="Portfolio">
-                <div class="FinalProject">
+                <div class="FinalProject" id="FinalProject">
                     <a href="https://github.com/AlexCange/Spotify_Popularity" target="_blank">
-                        <h4>Final Project at WBS</h4></a>
+                        <h4>Deep Learning</h4></a>
                         <p>Can a track popularity on Spotify be predicted? <br>
                         Working with the Audio Features from Spotify API's, we decided to add also the 
-                        spectrograms produced with the mp3 previews also from Spotify. <br> <br>Presentation:</p>
-                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0;border-radius: 1px; will-change: transform;">
+                        spectrograms produced with the mp3 previews also from Spotify. <br><br></p>
+                <div class="portfolio-overlay" style=" width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0;border-radius: 1px; will-change: transform;">
                     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                         src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFa1TNN7co&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                     </iframe>
                 </div>
                 </div>
-                <div class="UMachineLearning">
+                <div class="UMachineLearning" id=" UMachineLearning">
                     <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Unsupervised_ML" target="_blank">
                         <h4>Unsupervised Machine Learning</h4></a>
                         <p>Is KMean a good algorithm for creating playlists?<br>With the Spotify Audio Features, we try to cluster songs together 
-                        and see how KMean algorithm work on it. Is a computer able to create good playlists? <br> <br>Presentation:</p>
-                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0; border-radius: 1px; will-change: transform;">
+                        and see how KMean algorithm work on it. Is a computer able to create good playlists?</p>
+                <div class="portfolio-overlay" style=" width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0; border-radius: 1px; will-change: transform;">
                     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                         src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFSUI9o1Ik&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                     </iframe>
                     </div>
                     </div>
-                <div class="SMachineLearning">
+                <div class="SMachineLearning" id="SMachineLearning">
                     <a href="https://github.com/AlexCange/Final_Bootcamp_Project" target="_blank">
                         <h4><br>Supervised Machine Learning<br></h4></a><a href="https://medium.com/@alexandracange/my-journey-with-supervised-machine-learning-59d643b84ce8" target="_Blank"><p>Click here and read my Post on Medium!</p></a>
                         <p>Exploration of algorithms to predict if a house in expensive or not according to its caracteristics and then 
@@ -118,57 +128,40 @@
                                 kaggle</a> competition.
                         </p>
                     </div>
-                <div class="RecommendersSystems">
+                <div class="RecommendersSystems" id="RecommenderSystem">
                     <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/RecommenderSytems" target="_blank">
                         <h4><br>Movie Recommender Systems</h4><a href="https://alexcange-bootcamp-projects-recommendersytemsstreamlit-yfs8mq.streamlit.app/" target="_blank"><p>Check my App here!</p></a>
                     </a><p>While learning the different kind of recommendations possible and algorithms, 
                         we have developped a small app to visualise a bit the recommendations.
-                    </p>
+                    </p> 
                 </div>
-                <div class="SQL">
+                <div class="BI" id="BI">
                     <a href="https://public.tableau.com/views/CustomersAnalysis_Story/Story1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link" target="_blank">
                         <h4><br> Business Intelligence <br></h4></a>
                         <p>Detailed analysis of a company’s ideal customers. 
                             It helps a business to better understand its customers 
                             and makes it easier for them to modify products according 
                             to the specific needs, behaviors and concerns of different 
-                            types of customers.</p> 
-                <div class='tableauPlaceholder' id='viz1676746720406' style='position: relative; width: 100%; height: 0; padding-top: 3%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0;border-radius: 1px; will-change: transform;'>
-                    <noscript><a href='#'>
-                        <img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CustomersAnalysis_Story&#47;Story1&#47;1_rss.png' style='position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;' /></a>
-                    </noscript>
-                    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                        <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
-                        <param name='name' value='CustomersAnalysis_Story&#47;Story1' /><param name='tabs' value='no' />
-                        <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;CustomersAnalysis_Story&#47;Story1&#47;1.png' /> 
-                        <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
-                        <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
-                    </object></div>                
-                    <script type='text/javascript'>                    
-                    var divElement = document.getElementById('viz1676746720406');                    
-                    var vizElement = divElement.getElementsByTagName('object')[0];                    
-                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                    var scriptElement = document.createElement('script');                    
-                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-                    </script>
+                            types of customers. <br> <br> <a href="https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis" target="_blank">DataSet from Kaggle here</a><a href="https://public.tableau.com/app/profile/alexandra.cange/viz/CustomersAnalysis_Story/Story1">Dashboard here</a></p>         
                 </div>  
-                <div class="DatasCleaning">
+                <div class="DatasCleaning" id="DataQuality">
                     <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Cleaning" target="_blank">
                         <h4>Data Cleaning <br> Data Vizualisation</h4><p></p></a>
                         <p>Is it beneficial to discount products? <br> As a data Scientist in Eniac, an E-commerce company
                         specialised in High-Tech products, We should advice the CEO on going or not for discounts as the Marketing
                     Team suggested. After cleaning the messy datas, and check the quality of them, we should analyse the datas to make the 
                 best recommendations possible.</p>
-                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border:0;border-radius: 1px; will-change: transform;">
-                    <img style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="./resources/img/data_cleaning.png" alt="">
                 </div>
-                </div>
-                <div class="Engineer">
+                <div class="Engineer" id="Engineering">
                     <a href="https://github.com/AlexCange/Bootcamp_Projects/tree/main/Data_Engineering" target="_blank">
                         <h4>Data Engineering<br>Cloud Computing<br></h4></a><a href="https://medium.com/@alexandracange/my-first-automated-data-pipeline-in-the-cloud-eafebc83a83b" target="_Blank"><p>Click here and read my Post on Medium!</p></a>
                 <p>Create an automated pipeline with AWS Lambda, CloudWatch and MySQL to store information about flights, Weather forecast and Cities main caracteristics.</p>
+                </div>
+                <div class="SQL" id="SQL">
+                    <a href="https://app.datacamp.com/workspace/w/0dc78fd0-9ea2-493d-8150-9974c7f5bd67/edit">
+                        <h4>SQL <br> Analysis on Lego Sets</h4>
+                    </a>
+                    <p><br>Analysis from Lego Sets over the years. Query on SQL with some visualisation.</p>
                 </div>
             </div>
         
@@ -315,20 +308,20 @@
                 <!-- <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="alexandracange" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/alexandracange?trk=profile-badge">Alexandra Cange</a></div> -->
                 
                 <div id="Contact">
-                    <p>Phone: +49 174 7453284</p>
+                    <p>Phone: +49 174 7453284
                     
-                    <p>Email: alexandracange@gmail.com</p>
+                    <br>Email: alexandracange@gmail.com
                      
-                    <p>Location: Berlin</p>    
+                    <br> Location: Berlin</p>    
                     <a href="https://github.com/AlexCange?tab=repositories" target="_blank">
-                    <img src="./resources/img/Github.PNG" alt="Github"></a>  
+                    <img src="./resources/img/githubicon.png" alt="Github"></a>  
                     
                     <a href="https://www.linkedin.com/in/alexandracange/" target="_blank">
-                        <img src="./resources/img/LinkedIn.PNG" alt="LinkedIn">
+                        <img src="./resources/img/linkedinicon.png" alt="LinkedIn">
                     </a>
-                    <a href="mailto:alexandracange@gmail.com"> <img src="./resources/img/Gmail.PNG" alt=""></a>
+                    <a href="mailto:alexandracange@gmail.com"> <img src="./resources/img/gmailicon.png" alt=""></a>
                 </div>
-                        </div>
+                </div>
     </body>
 </html>
 
