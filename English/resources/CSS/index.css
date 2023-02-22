@@ -6,7 +6,7 @@ html, body {
 body{
 text-align: center;
 font-family: Exo, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #828181;
+background-color: #272727;
 margin:0px;
 }
 
@@ -31,11 +31,9 @@ margin:0px;
 width:100%;
 }
 
-.bannerText h1{
-color: #9cabb4;
+.bannerText {
 font-family: Exo, "Anek Devanagari","Arial Narrow", Helvetica, sans-serif;
 font-weight:900;
-font-size: 50px;
 text-align: center;
 margin: 0%;
 max-width: 60%;
@@ -46,19 +44,37 @@ left: 50%;
 transform: translate(-50%, -50%);
 z-index: 2;
 width: 50%;
-padding: 10px;
 border: 3px solid #99a7b0;
+} 
+
+.waviy {
+    position:relative;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    color: #9cabb4;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg)
+    }
 }
 
 /* Titles */
 
 h2{
-color:#000000c6;
+color:#00000093;
 font-size: 50px;
 text-align: center;
 font-weight: 900;
 font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 70px auto 50px auto;
 }
 
 /* Navigation */
@@ -88,7 +104,7 @@ margin: 70px auto 50px auto;
 .Menu li a, .LinkPortfolio .FrenchPage {
     display: inline-block;
     text-align:center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     color:#6a6a6a;
 }
@@ -130,17 +146,15 @@ margin: 70px auto 50px auto;
     font-style: italic;
 }
 
-.Cat {
-    margin:10px;
-    padding:10px;
-}
+
+/* About Me  */
 
 
 .About-Me{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
-    margin: auto 5%;
+    margin: auto 10%;
 }
 
 .About-Me p{
@@ -149,10 +163,15 @@ margin: 70px auto 50px auto;
     color:white;
 }
 .About-Me a {
-    font-weight:bold;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.813);
     text-decoration:none;
+    font-style: italic;
+}
+.SpotifyPlayer {
+    grid-column: 1/3;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
 
 .ToTop {
@@ -184,10 +203,11 @@ margin: 70px auto 50px auto;
     background-image: url('../../resources/img/HardSkills.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
+    margin:5%;
 }
 
 .Skills div {
-    border:10px solid #828181;
+    border:10px solid #272727;
     display:inline-block;
     padding: 10%;
 }
@@ -217,9 +237,10 @@ margin: 70px auto 50px auto;
     background-image: url('../../resources/img/SoftSkills.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
+    margin:5%;
 }
 .Soft div {
-    border:10px solid #828181;
+    border:10px solid #272727;
     color:#ffffff;
     padding: 5%;
 }
@@ -249,6 +270,8 @@ margin: 70px auto 50px auto;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1%;
+    margin:3%;
+
 }
 
 .CV a{
@@ -275,7 +298,7 @@ margin: 70px auto 50px auto;
     border: 1px solid rgba(0, 0, 0, 0);
     text-align: justify;
     border-radius: 3%;
-    color:#fefefe;
+    color:#d8d6d6;
     padding: 5% 0%;
 }
 
@@ -301,40 +324,7 @@ margin: 70px auto 50px auto;
     background-size: cover; 
 }
 
-/* .Work_Experience h4{
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-
-.Work_Experience h5{
-    font-size: 15px;
-    margin: 0px;
-}
-
-.Work_Experience div{
-    padding: 0px 20px 25px 30px;
-    display: flex;
-    height: auto;
-    margin-bottom:10px;
-    color:rgb(255, 255, 255);
-}
-.resume {
-    width:30%;
-    text-align: left;
-    margin-top: 0px;
-}
-
-.resume p {
-    font-size: 15px;
-    font-style: italic;
-}
-
-.Text p {
-    text-align: justify;
-    padding-left: 30px;
-    padding-top: 20px;
-    font-size: 18px;
-} */
+/* Education */
 
 .Education {
     display: grid;
@@ -379,24 +369,26 @@ margin: 70px auto 50px auto;
     font-size: 20px;
 }
 
+/* Portfolio */ 
+
 .Portfolio{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    background-image: url('../../resources/img/Portfolio.jpeg');
+    background-image: url('../../resources/img/PortfolioBackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    width:90%;
+    margin:auto;
 }
 
 .Portfolio div {
-    border:10px solid #808080;
+    border:10px solid #272727;
     color:#ffffff;
-    display:inline-block;
 }
 
 .Portfolio div:hover {
     border: 10px solid rgb(184, 182, 182);
-    }
+}
 
 .Portfolio p{
     text-align: justify;
@@ -414,23 +406,34 @@ margin: 70px auto 50px auto;
     color: white;
     align-items: center;
 }
+.SQL a{
+    display:grid;
+}
 
 .Contact_Me {
     width:100%;
     margin:0px;
-
+    padding:0;
+    background-color: #000000;
+    color:white;
+}
+.Contact_Me h2 {
+    color:rgb(208, 208, 208);
+    font-size: 45px;
+    padding-top: 30px;
 }
 
 .Contact_Me p{
-    font-size: 20px;
-    margin:0px;
+    font-size: 15px;
+    margin:15px;
 }
 
 .Contact_Me img {
     border-radius: 50%;
-    color: #3d3b2fa8;
+    color: #fffffe;
     height: 40px;
     margin: 10px;
+    margin-bottom: 50px;
     
 }
 
