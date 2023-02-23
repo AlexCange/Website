@@ -278,7 +278,7 @@ font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     text-align: center;
     background: #000000a9;    
     color:#fffefec8;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 55px 15px 55px;
     margin: 40px 20px;
     font-size: 15px;
     display:inline-block;
@@ -306,8 +306,8 @@ font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     padding: 0% 5%;
     font-size: 20px;
 }
-.resume{
-    padding: 0 10px;
+.resume {
+    padding: 0% 25%;
     font-size: 20px;
 }
 .resume p{
@@ -329,36 +329,20 @@ font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 .Education {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 10px;
-}
-
-.School {
-    background-image: url('../../resources/img/WBS.JPEG');
+    background-image: url("../img/Education.png");
     background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.Uni {
-    background-image: url('../../resources/img/Uni.JPEG');
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.Certificates {
-    background-image: url('../../resources/img/Certificates.JPEG');
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    width:80%;
+    margin:auto;
 }
 
 .Education div {
     padding-bottom: 20px;
     color: white;
-    margin: 20px;
+    border: 10px solid #272727 ;
 }
 .Education div:hover {
     border: 10px solid rgb(184, 182, 182);
-    margin:10px;
-
 }
 
 .Education a {
