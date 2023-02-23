@@ -425,83 +425,83 @@ font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     background-color: #282626e2;
 }
 
-
-@media only screen and (max-width:445px){
-
-    .banner {
-        height: 150px;
+@media only screen and (max-width:425px){
+    body {
+        overflow-x:hidden;
+        margin: 0%;
     }
-    .banner h1{
-        font-size: 45px; 
+    .waviy span {
+        font-size: 25px;
+        bottom: -20px;
     }
     .Menu a{
-        color:#ffffff;
-        margin: 5px 50px;
-        padding: 10px;
-        font-size: 15px;
+        padding: 5px;
+        font-size: 10px;
         display:block;
-        background-image: none;
-        background-color: #282626e2;
         }
-    .Menu a:hover {
-        color:#ffffff;
-        margin: 5px 50px;
-        padding: 10px;
-        font-size: 15px;
-        display:block;
-        background-image: none;
-        background-color: #282626e2;
+    .Menu li a {
+        padding: 8px 15px;
     }
-    .About-Me{
-        grid-template-columns: repeat(1, 1fr);
+    .About-Me {
+        display:grid;
+        grid-template-columns: 100%;
+        margin: auto 5%;
+        row-gap: 0px;
     }
-    .About-Me div:first-child {
-        grid-row: 2;
-
-    }
-    .Cat {
-        margin:0px;
-    }
-    .BigMother {
-        display:none;
+    .SpotifyPlayer {
+        grid-column: 1/1;
     }
     .Skills {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 100%;
+        gap:0;
+        margin:0;
     }
     .Skills h3{
         font-size: 20px ;
     }
     .Skills p{
         font-size: 15px;
-
+    }
+    .Soft {
+        margin:0px;
     }
     .Work_Experience {
-        display:block;
+        display:grid;
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        column-gap:0;
+        margin:0;
     }
-    .VIU {
-        padding: 0px 13px 20px 13px;
+    .Work_Experience div {
+        display:grid;
+        grid-template-columns: 100%;
+        font-size: 10px;
     }
-    .Work_Experience h4{
-        font-size: 15px;
-        margin-top:30px;
-    }
-    .Work_Experience h5{
-        font-size: 13px;
-    }
-    .KIABI {
-        padding: 0px 13px 20px 13px;
-    }
-    .resume {
-        width:50px;
-    }
-    .Text {
-        font-size: 16px;
-    }
-    .Education div {
-        margin: 10px;
+    .Education {
+        display:grid;
+        grid-template-columns: 100%;
+        width:100%
     }
     .Portfolio {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 100%;
+    }
+    .Portfolio iframe {
+        display:none;
+        overflow: hidden;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .waviy span {
+        font-size: 20px;
+        bottom: -15px;
     }
 }
 
+@media only screen and (max-width:320px){
+    .waviy span {
+        font-size: 17px;
+        bottom: -15px;
+    }
+}
