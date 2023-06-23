@@ -323,6 +323,11 @@ font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     background-repeat: no-repeat;
     background-size: cover; 
 }
+.jack-wolfskin {
+    background-image: url('../../resources/img/JackWolfskin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
 /* Education */
 
